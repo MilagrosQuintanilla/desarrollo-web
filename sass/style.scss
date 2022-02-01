@@ -1,0 +1,97 @@
+@import "colors";
+
+.body {
+    background-color: map-get($color-options, background);
+    background-size: 100%;
+
+    .carrusel {
+        height: auto;
+        width: auto;
+    }
+
+}
+
+.t1 {
+    color: $font;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+
+%carta {
+    width: 1000px;
+    height: 1000px;
+    padding: 15px;
+    text-align: center;
+
+    .imgcarta {
+        width: 800px;
+        height: 700px;
+    }
+}
+
+@mixin carta2($fondo) {
+    @extend %carta;
+    background-color: $fondo;
+}
+
+.carta3 {
+    @include carta2(black)
+}
+
+.img {
+    height: 940px;
+    width: 720px;
+}
+
+.footer {
+    background-color: rgb(44, 45, 46);
+    height: 80px;
+.terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+    .title {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.fila {
+    padding: 10px;
+}
+
+.textocarta {
+    padding-top: 70px;
+}
+
+.chef {
+    width: 2000px;
+    height: 2000px;
+}
+
+.card1 {
+    width: 600px;
+    height: 500px;
+    padding: 5px;
+
+}
+
+.lista{
+    display: flex;
+justify-content: space-evenly;
+}
+
+.containercard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista1{
+    width: 100px;
+    height: 30px;
+    padding: 50px;
+}

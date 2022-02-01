@@ -1,0 +1,29 @@
+* background-image {background-image
+    black
+}
+.body {
+    background-image: url(./IMG/INICIO.jpg);
+    background-size: 100%;
+    background-image: gradient(to bottom, rgba(0, 0, 0, 0.295) 10%, rgba(0, 0, 0, 0.082) 10%), url(IMG/INICIO.jpg);
+
+}
+
+.t1 {
+    color: aliceblue;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.carrusel {
+    height: auto;
+    width: auto;
+}
+
+.carta {
+    width: 50%;
+    height: 50%
+}
+
+.img {
+    height: 60rem;
+}
